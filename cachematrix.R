@@ -9,7 +9,6 @@
 #     3. Set the inverse
 #     4. Get the inverse
 
-
 makeCacheMatrix <- function(x = matrix()) {
       ## Start with a NULL in the cache
       m <- NULL
@@ -41,7 +40,6 @@ makeCacheMatrix <- function(x = matrix()) {
       ## Return a list of names of the functions in this cache
       list(set=set, get=get, setinverse=setinverse, getinverse=getinverse)
 }
-
 
 ## Second, construct a function which determines if the matrix holding variable, m, is empty.  
 #     If it is empty, then use solve() to determine and store the inverse
