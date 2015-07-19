@@ -34,7 +34,7 @@ makeCacheMatrix <- function(x = matrix()) {
       
       ## Define the function to get the inverse from the cache
       getinverse <- function() {
-            ## Retrieve m
+            ## Retrieve m (the cache)
             m
       }
       
